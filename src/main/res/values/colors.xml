@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Nutri-Score Colors -->
+    <color name="nutri_score_a">#FF008000</color> <!-- Dark Green -->
+    <color name="nutri_score_b">#FF8FBC8F</color> <!-- Light Green (using DarkSeaGreen as an example) -->
+    <color name="nutri_score_c">#FFFFFF00</color> <!-- Yellow -->
+    <color name="nutri_score_d">#FFFFA500</color> <!-- Orange -->
+    <color name="nutri_score_e">#FFFF0000</color> <!-- Red -->
 </resources>

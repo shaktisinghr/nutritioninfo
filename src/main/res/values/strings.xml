@@ -14,4 +14,5 @@
     <string name="log_recognized_text_prefix">Recognized Text: </string>
     <string name="log_tag_nutrition_info">NutritionInfo</string>
     <string name="error_could_not_find_value_column_header">No text found in the image.\n(Could not find value column header)</string>
+    <string name="nutri_score_display_format">Nutri-Score: %s</string>
 </resources>

@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Nutrition Info</string>
+    <string name="app_name">NutritionInfo</string>
+
+    <!-- Add these missing strings -->
+    <string name="sample_image_for_text_recognition">Sample image with nutritional label</string>
+    <string name="recognize_text">Recognize Text</string>
+    <string name="no_text_found">No text found in the image.</string>
+
+    <!-- Strings from MainActivity -->
+    <string name="nutritional_label_jpg_file_name">NutritionalLabel.jpg</string>
+    <string name="error_loading_sample_image">Error loading sample image</string>
+    <string name="text_recognition_failed_message">Text recognition failed</string>
+    <string name="error_processing_sample_image">Error processing sample image</string>
+    <string name="log_recognized_text_prefix">Recognized Text: </string>
+    <string name="log_tag_nutrition_info">NutritionInfo</string>
+    <string name="error_could_not_find_value_column_header">No text found in the image.\n(Could not find value column header)</string>
 </resources>

@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.application") version "8.12.0"
+    id("com.android.application") version "8.12.2"
     id("org.jetbrains.kotlin.android") version "2.2.10"
 }
 
@@ -23,12 +23,8 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
     kotlin {
-        jvmToolchain(17)
+        jvmToolchain(21)
     }
     buildFeatures {
         viewBinding = true
